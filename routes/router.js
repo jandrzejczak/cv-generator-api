@@ -375,7 +375,7 @@ router.post("/upload-image", auth, async (req, res) => {
 
     let imagePath =
       process.env.SERVER_ADDRESS +
-      process.env.SERVER_PORT +
+      process.env.PORT +
       "/images/" +
       user.id +
       "." +
